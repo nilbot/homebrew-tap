@@ -8,23 +8,23 @@ class Agents < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nilbot/dotfiles/releases/download/v0.1.0/agents_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "c8419260b3490b54bde0cac0c68fe716bbfaf0c89da6d90166ab291c5bb2f235"
+      url "https://github.com/nilbot/dotfiles/releases/download/v0.2.0/agents_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "47bc73acb77c47bf4033aadf01f18dd4ab621862b7e7452781135a7eb8266f3f"
     end
     on_intel do
-      url "https://github.com/nilbot/dotfiles/releases/download/v0.1.0/agents_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "54fbc3177719ae13cd4907d65d3c0f4acc7d7ede5027f58ac9a3f06e2371a4ca"
+      url "https://github.com/nilbot/dotfiles/releases/download/v0.2.0/agents_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "16fd3695596f988f83f41a0a89adf418ebe967f66cd7200532c80fe6c909c3ba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nilbot/dotfiles/releases/download/v0.1.0/agents_v0.1.0_linux_arm64.tar.gz"
-      sha256 "38f7d8dbbd48283f14a3f06c9690f43bfe76631453dae3b247557f07fd439791"
+      url "https://github.com/nilbot/dotfiles/releases/download/v0.2.0/agents_v0.2.0_linux_arm64.tar.gz"
+      sha256 "54371938cf12d632a70a648cb6590de882e901720dace22504fa893675786c2c"
     end
     on_intel do
-      url "https://github.com/nilbot/dotfiles/releases/download/v0.1.0/agents_v0.1.0_linux_amd64.tar.gz"
-      sha256 "777dab67729c5acf1902aa1f67d111a0e5f3b8a76d6d671f0ce9426e256c88fe"
+      url "https://github.com/nilbot/dotfiles/releases/download/v0.2.0/agents_v0.2.0_linux_amd64.tar.gz"
+      sha256 "008cd53f854d2252a687cf2a849ecc5cda587581099d443dc45e220206bfbeb3"
     end
   end
 
