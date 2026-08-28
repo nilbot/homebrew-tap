@@ -1,7 +1,11 @@
+# typed: false
+# frozen_string_literal: true
+
 class Agents < Formula
   desc "Development harness and standalone agent tool"
   homepage "https://github.com/nilbot/dotfiles"
   version "0.1.0"
+  license "MIT"
 
   on_macos do
     on_arm do
